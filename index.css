@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+legend{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-style: italic;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    display: block;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.form-content {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.form {
+    padding: 3rem;
+    margin: 0 auto;
+    background-color: gray;
+    max-width: 120rem;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+div .form-group{
+    flex: 1 1 auto;
+    min-width: 320px;
+    flex-direction: column;
+    font-size: 2rem;
+
+}
+
+.form-group input {
+    border: none;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+.form-group button{
+    border: 0.5rem solid white;
+    background: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.namesOfStudents{
+    height: 100vh;
+    max-width: 120rem;
+    background-color: #b8f1b8;
+    justify-content: center;
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+.tabelaDeAlunos{
+    overflow: hidden;
+    overflow-x: auto;
+    width: 100%;
+}
+
+h1{
+    font-style: italic;
+    font-size: 2.6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+table td, table th{
+    border: 0.1rem solid gray;
+    text-align: left;
+    padding: 1rem;
+    white-space: nowrap;
+}
+
+table th{
+    background: gray;
+}
+
+table tbody{
+    background-color: white;
+}

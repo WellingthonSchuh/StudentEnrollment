@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matricula</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <form action="" method="get" id = "form" class="form">
+        <legend>Dados do Aluno</legend>
+        <div class="form-content">
+            <div class = form-group>
+                <label for="first-name">Nome</label>
+                <input type="text"  id="first-name" placeholder="Nome">
+            </div>
+            <div class = form-group>
+                <label for="last-name">Sobrenome</label>
+                <input type="text" id="last-name"  placeholder="Sobrenome">
+            </div>
+            <div class = form-group>
+                <label for="email">E-mail</label>
+                <input type="email" id="email"  placeholder="exemplo@exemplo.com">
+            </div>
+            <div class = form-group>
+                <label for="phone">Telefone</label>
+                <input type="text" id="phone-number"  placeholder="(00) 0000-0000">
+            </div>
+            <div class = form-group>
+                <button type="submit">Enviar</button>
+            </div>
+
+        </div>
+
+    </form>
+    <section id="Matriculados" class="AlunosMatriculados">
+        <div class="namesOfStudents">
+            <h1>Alunos Matriculados</h1>
+            <table class="tabelaDeAlunos">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>                        
+                    </tr>
+                </thead>
+                <tbody class = "dadosAlunos" Id="dadosAlunos">
+                    
+                </tbody>
+            </table>
+            
+
+
+        </div>
+    </section>
+    <script src="index.js"></script>
+    
+</body>
+</html>
